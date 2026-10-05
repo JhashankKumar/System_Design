@@ -1,3 +1,15 @@
+"""
+Aggregation is a special form of association that represents a "Has-A" relationship between two classes. 
+It is a way to model the relationship where one class (the whole) contains or is composed of other
+classes (the parts), but the parts can exist independently of the whole.
+
+In this example, we have a `University` class that aggregates multiple `Professor` objects. 
+The `University` class can contain multiple `Professor` objects, and each `Professor` object can 
+exist independently of the `University`. This allows for better organization and management of 
+professors within a university, as each professor can be associated with a specific university, 
+but can also exist independently of it. The aggregation relationship is established through the 
+use of references, allowing for easy access and manipulation of the related objects.
+"""
 class Professor:
     def __init__(self, name, subject):
         self.name = name
