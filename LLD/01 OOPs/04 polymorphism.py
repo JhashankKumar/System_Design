@@ -1,3 +1,17 @@
+"""
+Polymorphism is a concept in object-oriented programming that allows objects of different 
+classes to be treated as objects of a common superclass. It enables a single interface 
+to represent different underlying forms (data types). In Python, polymorphism can be 
+achieved through method overriding and operator overloading.
+Method overriding occurs when a subclass provides a specific implementation of a 
+method that is already defined in its superclass. This allows the subclass to modify 
+or extend the behavior of the inherited method. Operator overloading allows the use of 
+standard operators (like +, -, *, etc.) to work with user-defined objects, enabling them to 
+behave like built-in types. Polymorphism promotes code reusability and flexibility, allowing 
+developers to write more generic and maintainable code. It is a key feature of object-oriented 
+programming that enhances the ability to design systems that can handle different data 
+types and behaviors seamlessly.
+"""
 class MathOperation:
     def add(self, a, b, c=0, *args):
         sumx = a + b + c
@@ -20,7 +34,7 @@ class Animal:
 
 class Dog(Animal):
     def make_sound(self):
-        print("Dod Barks")
+        print("Dog Barks")
 
 
 class Cat(Animal):
