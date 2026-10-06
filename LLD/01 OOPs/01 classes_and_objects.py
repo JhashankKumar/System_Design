@@ -1,3 +1,9 @@
+"""
+Class and Object in Python
+Class is a blueprint for creating objects. An object has properties and methods(functions) 
+associated with it. Almost everything in Python is an object, with its properties and methods.
+"""
+
 class Car:
     # Constructor
     def __init__(self, color, make, model, year):

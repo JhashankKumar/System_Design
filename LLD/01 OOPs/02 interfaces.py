@@ -1,3 +1,10 @@
+"""
+Interfaces in Python are a way to define a contract for classes. 
+An interface defines a set of methods that a class must implement, 
+but it does not provide any implementation for those methods. 
+In Python, interfaces can be created using abstract base classes (ABCs) from the `abc` module.
+"""
+
 from abc import ABC, abstractmethod
 
 
